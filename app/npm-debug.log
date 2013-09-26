@@ -1,0 +1,42 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '/Users/sethclarkdowden/git/yorez/app/web.js' ]
+2 info using npm@1.3.8
+3 info using node@v0.10.17
+4 warn package.json yorez@0.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ '/Users/sethclarkdowden/git/yorez/app/web.js', null ]
+7 verbose cache add name=undefined spec="/Users/sethclarkdowden/git/yorez/app/web.js" args=["/Users/sethclarkdowden/git/yorez/app/web.js",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '/Users/sethclarkdowden/git/yorez/app/web.js',
+8 verbose parsed url   path: '/Users/sethclarkdowden/git/yorez/app/web.js',
+8 verbose parsed url   href: '/Users/sethclarkdowden/git/yorez/app/web.js' }
+9 silly lockFile c11f4d4b-clarkdowden-git-yorez-app-web-js /Users/sethclarkdowden/git/yorez/app/web.js
+10 verbose lock /Users/sethclarkdowden/git/yorez/app/web.js /Users/sethclarkdowden/.npm/c11f4d4b-clarkdowden-git-yorez-app-web-js.lock
+11 silly lockFile c11f4d4b-clarkdowden-git-yorez-app-web-js /Users/sethclarkdowden/git/yorez/app/web.js
+12 silly lockFile c11f4d4b-clarkdowden-git-yorez-app-web-js /Users/sethclarkdowden/git/yorez/app/web.js
+13 error addLocal Could not install /Users/sethclarkdowden/git/yorez/app/web.js
+14 error Error: ENOENT, stat '/Users/sethclarkdowden/git/yorez/app/web.js'
+15 error If you need help, you may report this log at:
+15 error     <http://github.com/isaacs/npm/issues>
+15 error or email it to:
+15 error     <npm-@googlegroups.com>
+16 error System Darwin 12.5.0
+17 error command "node" "/usr/local/bin/npm" "install" "/Users/sethclarkdowden/git/yorez/app/web.js"
+18 error cwd /Users/sethclarkdowden/git/yorez/app
+19 error node -v v0.10.17
+20 error npm -v 1.3.8
+21 error path /Users/sethclarkdowden/git/yorez/app/web.js
+22 error code ENOENT
+23 error errno 34
+24 verbose exit [ 34, true ]

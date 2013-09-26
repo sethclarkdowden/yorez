@@ -1,1 +1,2 @@
-web: node web.js
+:set fileformat=unix
+:w
